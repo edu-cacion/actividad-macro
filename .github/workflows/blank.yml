@@ -38,8 +38,5 @@ jobs:
       - name: Listar repositorio
         run: ls
 
-      - name: Correr script
-        run: ./hello.sh
-
       - name: Finalizar script
         run: echo "Termino la ejecución"

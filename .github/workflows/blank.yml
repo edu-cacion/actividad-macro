@@ -38,9 +38,6 @@ jobs:
       - name: Listar repositorio
         run: ls
 
-      - name: Cambiar script
-        run:  chmod +x hello.sh
-
       - name: Correr script
         run: ./hello.sh
 

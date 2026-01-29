@@ -39,7 +39,7 @@ jobs:
         run: ls
 
       - name: Cambiar script
-        run:  Chmod +x hello.sh
+        run:  chmod +x hello.sh
 
       - name: Correr script
         run: ./hello.sh
